@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 const levelDetailsData = {
   1: {
     title: 'Fajar Kedatangan',
-    instruction: 'Scan QR Code ini untuk membuka **Kuis Sejarah** tentang awal kedatangan Jepang. Jawab semua pertanyaan dengan benar!',
+    instruction: 'Scan QR Code ini untuk membuka Kuis Sejarah tentang awal kedatangan Jepang. Jawab semua pertanyaan dengan benar!',
     qrPngPath: '/qr_level1.png',
     gameLink: 'https://www.educaplay.com/learning-resources/23878630-kedatangan_jepang_ke_indonesia.html',
     gameType: 'Kuis Sejarah',
@@ -12,7 +12,7 @@ const levelDetailsData = {
   },
   2: {
     title: 'Di Bawah Kekuasaan',
-    instruction: 'Scan QR Code ini untuk membuka **Word Search** tentang kebijakan dan dampak pendudukan Jepang di Indonesia. Temukan semua kata tersembunyi!',
+    instruction: 'Scan QR Code ini untuk membuka Word Search tentang kebijakan dan dampak pendudukan Jepang di Indonesia. Temukan semua kata tersembunyi!',
     qrPngPath: '/qr_level2.png',
     gameLink: 'https://www.educaplay.com/learning-resources/23917632-kedatangan_jepang_ke_indonesia_puzzle.html',
     gameType: 'Word Search',
@@ -20,7 +20,7 @@ const levelDetailsData = {
   },
   3: {
     title: 'Menuju Kemerdekaan',
-    instruction: 'Scan QR Code ini untuk membuka **TTS (Teka-Teki Silang)** tentang peristiwa menjelang proklamasi kemerdekaan. Isi semua kotak dengan benar!',
+    instruction: 'Scan QR Code ini untuk membuka TTS (Teka-Teki Silang) tentang peristiwa menjelang proklamasi kemerdekaan. Isi semua kotak dengan benar!',
     qrPngPath: '/qr_level3.png',
     gameLink: 'https://www.educaplay.com/learning-resources/23920342-kedatangan_jepang_ke_indonesia_crossword.html',
     gameType: 'TTS',
@@ -100,7 +100,7 @@ function LevelDetail({ onLevelComplete, completedLevels }) {
             <span className="mr-2 text-2xl">💡</span> Instruksi Penting:
           </p>
           <p className="leading-relaxed">
-            Setelah Anda **menyelesaikan tantangan "{dataForLevel.gameType}"** di tab baru, kembali ke halaman ini dan tekan tombol "Tandai Selesai" di bawah untuk melanjutkan ke jejak berikutnya.
+            Setelah Anda menyelesaikan tantangan "{dataForLevel.gameType}" di tab baru, kembali ke halaman ini dan tekan tombol "Tandai Selesai" di bawah untuk melanjutkan ke jejak berikutnya.
           </p>
           <button
             onClick={handleMarkAsComplete}

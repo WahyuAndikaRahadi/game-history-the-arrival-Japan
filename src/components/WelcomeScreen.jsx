@@ -11,10 +11,10 @@ function WelcomeScreen() {
   return (
     <div className="space-y-8 animate-fade-in">
       <h1 className="text-5xl md:text-6xl font-extrabold text-deep-blue leading-tight tracking-wide drop-shadow-md">
-        Jejak Sejarah: Matahari Terbit di Nusantara
+        Jejak Perjuangan dalam Sepotong Permainan
       </h1>
       <p className="text-xl md:text-2xl text-rust-red mt-4 font-medium italic">
-        Ungkap Babak Penting, Raih Mahkota Pengetahuan!
+        "Lebih baik mati terhormat daripada hidup sebagai budak penjajah."
       </p>
       {/* Opsional: Ilustrasi historis */}
       {/* <img src="/historical_illustration.png" alt="Ilustrasi Sejarah" className="mt-8 mx-auto w-64 animate-slide-up-fade" /> */}
